@@ -17,28 +17,3 @@ module.exports = function towelSort(matrix = []) {
     }
     return arr;
 };
-
-// const towelSort = (matrix = []) => {
-//     const arr = [];
-//     if (matrix.length > 0 && matrix !== undefined) {
-//         for (let i = 0; i < matrix.length; i++) {
-//             if ((i + 1) % 2 !== 0) {
-//                 for (let j = 0; j < matrix[i].length; j++) {
-//                     arr.push(matrix[i][j]);
-//                 }
-//             } else {
-//                 for (let j = matrix[i].length - 1; j >= 0; j--) {
-//                     arr.push(matrix[i][j]);
-//                 }
-//             }
-//         }
-//     }
-//     return arr;
-// };
-
-// console.log(
-//     towelSort([
-//         [1, 2],
-//         [3, 4],
-//     ])
-// );
